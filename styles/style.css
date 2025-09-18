@@ -1,0 +1,50 @@
+header,
+nav,
+footer {
+    background-color: black;
+    /* black background */
+    color: white;
+    /* white text so it's readable */
+    text-align: center;
+    /* center text */
+    width: 100%;
+    /* ensures stretches across the screen */
+}
+
+main {
+    background-color: #0f0808;
+    background-image: url("https://www.transparenttextures.com/patterns/triangular.png");
+    color:white;
+}
+
+.roundedImage {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.centerContent {
+    display: flex;
+    /* enables flexbox */
+    flex-direction: column;
+    /* stack sections vertically */
+    align-items: center;
+    /* center items horiontally */
+    justify-content: center;
+    /* center items vertically */
+    text-align: center;
+    /* center text inside sections */
+}
+
+.aboutBox {
+    border: 2px solid white; /* white border around the box */
+    padding: 20px; /* space inside the box */
+    margin: 20px auto; /* spacing around the box */
+    width: 70%; /* adjust width as needed */
+    text-align: left; /* left-aligns everything */
+    background-color: #111; /* optional: dark background so white border pops */
+    color: white; /* white text to contrast the background */
+    border-radius: 8px; /* rounded corners */
+}
