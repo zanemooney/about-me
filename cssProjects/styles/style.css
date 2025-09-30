@@ -1,0 +1,30 @@
+header, 
+nav, 
+footer {
+    background-color: black;
+    /* black background ^^ */
+    color: white;
+    /* white text so it's readable ^^ */
+    text-align: center;
+    /* centers text */
+    width: 100%;
+    /* ensures background stretches the screen */
+}
+
+body {
+    background-color: #F54927;
+    /* orang-ish background */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* different fonts */
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    border: 1px #272EF5;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background: white;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
