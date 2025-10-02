@@ -11,13 +11,27 @@ footer {
     /* ensures background stretches the screen */
 }
 
+nav a {
+    color: gold;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: bold;
+}
+
 body {
-    background-color: #F54927;
-    /* orang-ish background */
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     /* different fonts */
     margin: 0;
     padding: 0;
+}
+
+main {
+    background-color: #0f0808;
+    background-image: url("https://www.transparenttextures.com/patterns/triangular.png");
+    width: 100%;
+    height: auto;
 }
 
 section {
@@ -27,4 +41,32 @@ section {
     max-width: 800px;
     background: white;
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+ul {
+    list-style-position: inside;
+}
+
+/* Project 1: Buttons */
+button {
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.btn-hover:hover {
+    background: lightskyblue;
+}
+
+.btn-glow {
+    background: purple;
+    color: white;
+    border-radius: 5px;
+    transition: box-shadow 0.3s;
+}
+
+.btn-glow:hover {
+    box-shadow: 0 0 10px purple;
 }
