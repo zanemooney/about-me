@@ -70,3 +70,43 @@ button {
 .btn-glow:hover {
     box-shadow: 0 0 10px purple;
 }
+
+/* Project 2: Photo Gallery */
+.gallery {
+    display: flex; /* Aligns images in a horizontal line */
+    flex-wrap: wrap; /* Moves images to the next line if there isn't enough space */
+    gap: 50px; /* Adds space between each image */
+    justify-content: center;
+}
+
+.gallery img {
+    width: 180px; /* Sets each image's width */
+    height: 120px; /* Sets each image's height */
+    object-fit: cover; /* Ensure the image filles the box without distortion */
+    border-radius: 6px; /* Rounds the image corners slightly */
+    transition: all 0.3s; /* Smoothly animates changes on hover */ 
+}
+
+/* Hover Effect 1: Rotate and Dropshadow */
+.hover-one:hover {
+    transform: rotate(360deg) scale(1.65); /* Rotates the image by 5 degrees and enlarges slightly */
+    box-shadow: 0 8px 15px gray; /* Adds a soft shadow behind the image (when hovered) */
+    opacity: 1; /* Keeps full opacity throughout transition */
+}
+
+/* Hover Effect 2: Grayscale to Color Fade */
+.hover-two:hover {
+    filter: grayscale(100%); /* Starts the image in black and white */
+    transition: filter 0.4s, transform 0.3s; /*Smoothly animates both filter (gray) and movement */
+    transform: scale(1.65); /* Slightly enlarges the image */
+}
+
+/* Hover Effect 3: Scale and Fade */
+.hover-three:hover {
+    transform: scale(1.65); /* Slightly enlarges image on hover */
+    opacity: 0.5; /* Makes the image slightly transparent */
+}
+
+
+
+
