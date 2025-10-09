@@ -107,6 +107,45 @@ button {
     opacity: 0.5; /* Makes the image slightly transparent */
 }
 
+/* Project 3: Styled Quote Box */
+.quote-section{
+    text-align: center; /* Centers all text and elements inside the section */
+    max-width: 30%; /* Limits the section's width to 30% of the page */
+}
 
+.quote-section h3{
+    color: #3d3528; /* Changes the H3 text to a dark earthy brown */
+    font-family: 'Merriweather', serif; /* Uses Merriweather and the classic serif font for a refined look */
+    margin-bottom: 15px; /* Adds space below the heading */
+    text-transform: uppercase; /* Makes all heading 3 letters uppercase */
+    letter-spacing: 1px; /* Adds small spacing between letters for readability/cool factor*/
+}
+/* Main quote box styling */
+.quote-box{
+    font-family: 'Georgia', serif; /* Uses Georgia and the classic serif font for a refined look */
+    font-style: italic; /* Italicizes text to make it look like an actual quote */
+    background-image: linear-gradient(135deg, #d9cbb4, #b7a68f), url('https://www.transparenttextures.com/patterns/black-paper.png');
+    background-blend-mode: multiply; /* Blends the texture softly into the color */
+    padding: 20px 30px; /* Adds inner spacing around the quote */
+    border-left: 6px solid #5a4a3b; /* Adds a thick, dark brown stripe on the left */
+    border-radius: 10px; /* Rounds the corners slightly for a softer look */
+    box-shadow: 0 4px 10px gray; /* Adds a light shadow for depth */
+    color: #2e2b26; /* Sets the quote text to a charcoal gray */
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
 
+.quote-box:hover{
+    transform: translateY(-4px); /* Slightly lift the box when hovered */
+    box-shadow: 0 6px 14px gray; /* Makes the shadow deeper to enhance the lift */
+    background-image: linear-gradient(135deg, #b7a68f, #d9cbb4), url('https://www.transparenttextures.com/patterns/black-paper.png');
+}
 
+.quote-box cite{
+    display: block; /* Makes the citation appear on its own line */
+    margin-top: 12px; /* adds space above the author's name */
+    font-style: normal; /* Removes italics to contrast the quote text */
+    font-weight: bold; /* Makes the author's name stand out by making it bold */
+    color: #4d5d53; /*Sets a muted olive-green tone for the author name */
+    text-align: right; /* Aligns the author's name to the right edge */
+    letter-spacing: 0.5px; /* Adds small spacing between letters for balance */
+}

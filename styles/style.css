@@ -48,3 +48,7 @@ main {
     color: white; /* white text to contrast the background */
     border-radius: 8px; /* rounded corners */
 }
+
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
