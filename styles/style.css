@@ -11,6 +11,11 @@ footer {
     /* ensures stretches across the screen */
 }
 
+nav a {
+    color: gold;
+    margin: 0 10px;
+}
+
 main {
     background-color: #0f0808;
     background-image: url("https://www.transparenttextures.com/patterns/triangular.png");
@@ -50,5 +55,5 @@ main {
 }
 
 body {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Georgia', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }

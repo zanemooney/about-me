@@ -9,6 +9,8 @@ footer {
     /* centers text */
     width: 100%;
     /* ensures background stretches the screen */
+    height: auto;
+    /* making sure the height is correct */
 }
 
 nav a {
@@ -21,7 +23,7 @@ nav a:hover {
 }
 
 body {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Georgia', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     /* different fonts */
     margin: 0;
     padding: 0;
