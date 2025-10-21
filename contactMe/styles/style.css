@@ -1,0 +1,93 @@
+header, 
+nav, 
+footer {
+    background-color: black;
+    /* black background ^^ */
+    color: white;
+    /* white text so it's readable ^^ */
+    text-align: center;
+    /* centers text */
+    width: 100%;
+    /* ensures background stretches the screen */
+    height: auto;
+    /* making sure the height is correct */
+}
+
+body {
+    font-family: 'Georgia', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* different fonts */
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background-color: #0f0808;
+    background-image: url("https://www.transparenttextures.com/patterns/triangular.png");
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a {
+    color: gold;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: bold;
+}
+
+.contact-form {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px blue;
+    width: 400px;
+}
+
+.contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #5eff00;
+}
+
+.contact-form input[type="color"],
+.contact-form input[type="range"] {
+    padding: 2px;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #5eff00;
+    border: none;
+    color: red;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.contact-form button:hover{
+    background-color: #00FFFB;
+}
+
+.inline-options {
+    display: flex;
+    gap: 10px;
+}

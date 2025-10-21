@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Me</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body>
@@ -13,9 +14,11 @@
         <nav>
             <a href="https://google.com" target="_blank">My Fav Website</a>
             <a href="[something else]">Something Else</a>
-            <a href="cssProjects/index.html">CSS Projects</a>
+            <a href="../cssProjects/index.html">CSS Projects</a>
+            <a href="../index.html">Home Page</a>
         </nav>
     </header>
+    <main>
     <!-- This is the introduction to the page-->
     <section>
         <h2>Introduction to the page</h2>
@@ -24,7 +27,7 @@
 
     <!--This is where the contact form lives-->
     <section>
-        <form>
+        <form class="contact-form">
             <h2>Contact Me</h2>
             <p>All areas with a * are required</p>
             <!--Asking the user for their name-->
@@ -59,7 +62,7 @@
             <input type="range" id="range" min="1" max="10" value="5" required>
             <!--Radio buttons-->
             <label>Preferred Contact Method:</label>
-            <div>
+            <div class="inline-options">
                 <!--Radio for Email-->
                 <label>
                     <input type="radio" name="contactMethod" value="Email" checked>
@@ -78,7 +81,7 @@
             </div>
             <!--Checkboxes-->
             <label>Services Interest In:</label>
-            <div>
+            <div class="inline-options">
                 <!--Checkbox for Web Design-->
                 <label>
                     <input type="checkbox" name="service" value="Web Design">
@@ -109,7 +112,7 @@
             <button type="submit">Submit</button>
         </form>
     </section>
-
+    </main>
     <footer>Created by Zane Mooney</footer>
 
 </body>
