@@ -27,6 +27,19 @@ main {
     height: auto;
     justify-content: center;
     align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.introBox {
+    border: 2px solid white; /* white border around the box */
+    padding: 20px; /* space inside the box */
+    margin: 20px auto; /* spacing around the box */
+     width: 70%; /*  adjust width as needed */
+    text-align: left; /* left-aligns everything */
+    background-color: #111; /* optional: dark background so white border pops */
+    color: white; /* white text to contrast the background */
+    border-radius: 8px; /* rounded corners */
 }
 
 nav a {
@@ -42,7 +55,7 @@ nav a:hover {
     background: white;
     padding: 25px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px blue;
+    box-shadow: 0 4px 8px gold;
     width: 400px;
 }
 
@@ -63,7 +76,7 @@ nav a:hover {
     width: 100%;
     padding: 8px;
     border-radius: 6px;
-    border: 1px solid #5eff00;
+    border: 1px solid gold;
 }
 
 .contact-form input[type="color"],
@@ -74,9 +87,9 @@ nav a:hover {
 .contact-form button {
     width: 100%;
     padding: 10px;
-    background-color: #5eff00;
+    background-color: gold;
     border: none;
-    color: red;
+    color: black;
     font-size: 16px;
     border-radius: 5px;
     margin-top: 15px;
@@ -84,7 +97,7 @@ nav a:hover {
 }
 
 .contact-form button:hover{
-    background-color: #00FFFB;
+    background-color: #464646;
 }
 
 .inline-options {
