@@ -103,4 +103,31 @@ nav a:hover {
 .inline-options {
     display: flex;
     gap: 10px;
+ }
+ 
+/* TABLE FOR JAVASCRIPT ASSIGNMENT */
+#resultContainer {
+    margin-top: 30px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px yellow;
+    width: 80%;
+    max-width: 700px;
+}
+
+#resultTable {
+    width:100%;
+    border-collapse: collapse;
+}
+
+#resultTable th, #resultTable td {
+    border: 1px solid blue;
+    padding: 10px;
+    text-align: left;
+}
+
+#resultTable th {
+    background-color: #007bff;
+    color: white;
 }
