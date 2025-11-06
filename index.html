@@ -4,75 +4,114 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
+    <title>Contact Me</title>
     <link rel="stylesheet" href="styles/style.css">
-    <link href="data:image/x-icon;base64,AAABAAEAEBAAAAEACABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAB0d4cA4tvfAGFodgBNVGgArqCdALe5wwCQlJ4AeYKNAGRrfwBlbIIAUlluABsdKQCBgo0A09HdAIBytwCXl7kAdnN8AFxidwCcoaoAmpq5ALexvgDIyNUAmpbIAJ2cvwA5PVIAnZfLAJ6XywCjpa0AoJ+/AI6NpQDPydgAFhgkALq7wQBVV2AAZmp9AOni4wBRWGwAUllvAJSXqAB+b7gAqabLAO7q6QDv6ukAwsDQAMvCxABtc48A39nbAHJipACbn64AsKzLAEpPZABLT2QAycfTAD48PgBLUmQAYGd+AE5TZwCMi6kAZGp+ADs2awBPVHMAZ2p+ANPQ0wCTlaMAlJegAI6KwQBCSFkAlJymAGhXsQBrcoQArK+6AGtxigBETFwArq29AFtgcwCFipUAWmF2AIeEngCFiZsANDhOABARGgDHxtEAtbS3ACInNwCZlccAiZKbAJ6duwC4uLoAYmp2ACQhUgDQydEAU1VcAOXh4gCkqK8A5+HiAOjh4gCQj6QAZGuCAJCYpAB/gY0A6+XlAGZtiACon8oAw7zGAFRccQDAvM8AVVxxAKenxwBcSZIAW0iYAKiamABcY30Ai42fAOPd4ABMUmYAnZbLAI+SnABiaIMAhXp5ANDO2ABfVlcAe3asACwwSgC0qKcAVVxyAFdccgDw6ekAgYWaAMrAwQBrbZsAbG+YAElAcABiYWYAnJ+oAFpgfgDLx80AXmR4AImMnQBKUWQAdHiPAHZ9jACiorEAJCRLAOTg4QBjaHsAUFZqAFJVZwBRVmoAvb3CAFFYcADr5OQAVFtwAElFSgBhWVgAVFp2AFVccwBDSlkAyb+/AI+DgwD17e0Ampu4ALO1vQASFSAAz8rOAE1VaAA6LnIAJSFVAGNpfwBSVWgAoaDHAI6GuQDSz9QAUlpuAGluhQBVXHQAQ0paAMDBzwAwK1gAmJOzAFlfdAA5OEAAcHWIAFxjdwBHUGMA3tngAF1jdwBeY3cAnZ6wABEUHgB3b5EA4NzgAJ+ksABNUWYAoaGwAM/J1QBOVWkAZGh9AM/K2ABPVWkAqqSnAGVtegBqV5IAVVlsAJKXpQArJ1YAgIKUAIFytQDBwdAAa3KJAMTE0ABITGEAsrS8AIqLlAB0eYwAOjBoAKGmrgCJgb4AFxgiAImBxwDQzdkAen+VAGZsgQDq4+QA09HcAL6/ywBWWnAAgIKVANnS1gDu5+cA7+fnALCtsQCusbQAa3KKAPDr6gBXXH8AhY2bAEhPYgBJT2IAgnfFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAtFsM5+ZSx6GHq9NXIOMuTZw9zdQCqKalbUQnXQbrQxKsEcSzGHpZ1mxEJ1FiB4yFk5t8kUJPsYPJL85p11V0SCTGOO0zr5IivXAUWuO/yCGXt4rs7MpK3R2yZ+NxX4hYaMa3MnIDkNxWF8IBfiqURpqVijbDCEfLqhbFj94qPkCutiXhudUmOQ7uqV6WKaNFN29vN4swSczY2nke5OlftWEtpwmJfTuOGnNBVOWfd55qLdCtRzyBE2YZKDEjXD+EU1BQunXqgg8coGsrmM9jeNKiUNlM6H+N0bAVABCdNW5OHwu8wGW727i+36QbLJl7YMFLOgqG4uBkKQ00BYB2BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=" rel="icon" type="image/x-icon">
+    <link
+        href="data:image/x-icon;base64,AAABAAEAEBAAAAEACABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAB0d4cA4tvfAGFodgBNVGgArqCdALe5wwCQlJ4AeYKNAGRrfwBlbIIAUlluABsdKQCBgo0A09HdAIBytwCXl7kAdnN8AFxidwCcoaoAmpq5ALexvgDIyNUAmpbIAJ2cvwA5PVIAnZfLAJ6XywCjpa0AoJ+/AI6NpQDPydgAFhgkALq7wQBVV2AAZmp9AOni4wBRWGwAUllvAJSXqAB+b7gAqabLAO7q6QDv6ukAwsDQAMvCxABtc48A39nbAHJipACbn64AsKzLAEpPZABLT2QAycfTAD48PgBLUmQAYGd+AE5TZwCMi6kAZGp+ADs2awBPVHMAZ2p+ANPQ0wCTlaMAlJegAI6KwQBCSFkAlJymAGhXsQBrcoQArK+6AGtxigBETFwArq29AFtgcwCFipUAWmF2AIeEngCFiZsANDhOABARGgDHxtEAtbS3ACInNwCZlccAiZKbAJ6duwC4uLoAYmp2ACQhUgDQydEAU1VcAOXh4gCkqK8A5+HiAOjh4gCQj6QAZGuCAJCYpAB/gY0A6+XlAGZtiACon8oAw7zGAFRccQDAvM8AVVxxAKenxwBcSZIAW0iYAKiamABcY30Ai42fAOPd4ABMUmYAnZbLAI+SnABiaIMAhXp5ANDO2ABfVlcAe3asACwwSgC0qKcAVVxyAFdccgDw6ekAgYWaAMrAwQBrbZsAbG+YAElAcABiYWYAnJ+oAFpgfgDLx80AXmR4AImMnQBKUWQAdHiPAHZ9jACiorEAJCRLAOTg4QBjaHsAUFZqAFJVZwBRVmoAvb3CAFFYcADr5OQAVFtwAElFSgBhWVgAVFp2AFVccwBDSlkAyb+/AI+DgwD17e0Ampu4ALO1vQASFSAAz8rOAE1VaAA6LnIAJSFVAGNpfwBSVWgAoaDHAI6GuQDSz9QAUlpuAGluhQBVXHQAQ0paAMDBzwAwK1gAmJOzAFlfdAA5OEAAcHWIAFxjdwBHUGMA3tngAF1jdwBeY3cAnZ6wABEUHgB3b5EA4NzgAJ+ksABNUWYAoaGwAM/J1QBOVWkAZGh9AM/K2ABPVWkAqqSnAGVtegBqV5IAVVlsAJKXpQArJ1YAgIKUAIFytQDBwdAAa3KJAMTE0ABITGEAsrS8AIqLlAB0eYwAOjBoAKGmrgCJgb4AFxgiAImBxwDQzdkAen+VAGZsgQDq4+QA09HcAL6/ywBWWnAAgIKVANnS1gDu5+cA7+fnALCtsQCusbQAa3KKAPDr6gBXXH8AhY2bAEhPYgBJT2IAgnfFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAtFsM5+ZSx6GHq9NXIOMuTZw9zdQCqKalbUQnXQbrQxKsEcSzGHpZ1mxEJ1FiB4yFk5t8kUJPsYPJL85p11V0SCTGOO0zr5IivXAUWuO/yCGXt4rs7MpK3R2yZ+NxX4hYaMa3MnIDkNxWF8IBfiqURpqVijbDCEfLqhbFj94qPkCutiXhudUmOQ7uqV6WKaNFN29vN4swSczY2nke5OlftWEtpwmJfTuOGnNBVOWfd55qLdCtRzyBE2YZKDEjXD+EU1BQunXqgg8coGsrmM9jeNKiUNlM6H+N0bAVABCdNW5OHwu8wGW727i+36QbLJl7YMFLOgqG4uBkKQ00BYB2BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA="
+        rel="icon" type="image/x-icon">
 </head>
 
 <body>
     <header>
-        <h1>About Me</h1>
+        <h1>Contact Me</h1>
         <nav>
             <a href="https://google.com" target="_blank">My Fav Website</a>
             <a href="[something else]">Something Else</a>
-            <a href="cssProjects/index.html">CSS Projects</a>
-            <a href="contactMe/index.html">Contact Me</a>       
+            <a href="../cssProjects/index.html">CSS Projects</a>
+            <a href="../index.html">Home Page</a>
         </nav>
     </header>
+    <main>
+        <!-- This is the introduction to the page-->
+        <section class="introBox">
+            <h2>Welcome to my Javascript introduction assignment!</h2>
+            <p>This is a simulation of a contact page- this does not actually work.</p>
+        </section>
 
-    <main class="centerContent">
-        <!--A locally stored photo will live here-->
-        <section class="aboutBox" style="justify-content: center; text-align: center; width: auto;">
-            <img class="roundedImage" src="imgs/Grand_Canyon_of_yellowstone.jpg" alt="A picture of the grand canyon">
-            <figcaption>a picture of the grand canyon</figcaption>
-        </section>
-        <!--A external image will live here-->
-        <section class="aboutBox" style="justify-content: center; text-align: center; width: auto;">
-            <img class="roundedImage"
-                src="https://as1.ftcdn.net/jpg/02/33/67/38/1000_F_233673837_9MsZ1N6fuVwxlLV23ikZD9C5iTyvuDvt.jpg"
-                alt="A picture of wilson park in florence alabama">
-            <figcaption>A picture of Wilson Park located in Florence Alabama</figcaption>
-        </section>
-        <!--A Google Maps iframe will live here-->
+        <!--This is where the contact form lives-->
         <section>
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3276.221021650414!2d-87.67759122349435!3d34.80038087288455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x887d485e5dbe37d1%3A0xa80998684af41eba!2sTennessee%20Street%20Billiards%20%26%20Grill!5e0!3m2!1sen!2sus!4v1757599080094!5m2!1sen!2sus"
-                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
+            <form class="contact-form" id="contactForm">
+                <h2>Contact Me</h2>
+
+                <!-- Basic Inputs -->
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Your Name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Your Email" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" placeholder="Enter a password">
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" placeholder="(123) 456-7890">
+
+                <label for="website">Website:</label>
+                <input type="url" id="website" placeholder="https://example.com">
+
+                <label for="age">Age:</label>
+                <input type="number" id="age" min="1" max="120" placeholder="Your Age">
+
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob">
+
+                <label for="time">Preferred Contact Time:</label>
+                <input type="time" id="time">
+
+                <label for="color">Favorite Color:</label>
+                <input type="color" id="color" value="#007bff">
+
+                <label for="range">Interest Level (1–10):</label>
+                <input type="range" id="range" min="1" max="10" value="5">
+
+                <!-- Radio Buttons -->
+                <label>Preferred Contact Method:</label>
+                <div class="inline-options">
+                    <label><input type="radio" name="contactMethod" value="Email" checked> Email</label>
+                    <label><input type="radio" name="contactMethod" value="Phone"> Phone</label>
+                    <label><input type="radio" name="contactMethod" value="Text"> Text</label>
+                </div>
+
+                <!-- Checkbox -->
+                <label>Services Interested In:</label>
+                <div class="inline-options">
+                    <label><input type="checkbox" name="service" value="Web Design"> Web Design</label>
+                    <label><input type="checkbox" name="service" value="Consulting"> Consulting</label>
+                    <label><input type="checkbox" name="service" value="Other"> Other</label>
+                </div>
+
+                <!-- Select Dropdown -->
+                <label for="topic">Topic:</label>
+                <select id="topic">
+                    <option value="General">General Inquiry</option>
+                    <option value="Support">Support</option>
+                    <option value="Feedback">Feedback</option>
+                </select>
+
+                <!-- Textarea -->
+                <label for="message">Message:</label>
+                <textarea id="message" rows="4" placeholder="Your Message" required></textarea>
+
+                <!-- Submit Button -->
+                <button type="submit">Send</button>
+            </form>
         </section>
-        <!--Some text and other things like <b> or <i> or whatever about <you-->
-        <section class="aboutBox">
-            <h2 style="text-decoration: underline;">About Me</h2>
-
-            <p>
-                I am <b>25</b> years old and proudly served in the
-                <span style="color: blue; font-weight: bold;">Alabama Air National Guard</span>.
-                Currently, I am working on a <i>PhD</i> through
-                <span style="font-style: italic; color: green;">Liberty University Online</span>.
-            </p>
-
-            <p>
-                This is my <u>first year teaching</u>, but I’ve wanted to become a
-                <b style="color: purple;">college instructor</b> for the last five years.
-            </p>
-
-            <p>My hobbies include:</p>
-            <ul style="list-style-type: square; text-align: left; display: inline-block; margin-top: 0;">
-                <li><i>Lifting weights</i></li>
-                <li>Playing <b>chess</b></li>
-                <li>Playing video games</li>
-            </ul>
-
-
-            <p>
-                People say I'm a bit <span style="color: orange;">eccentric</span> and often <i>sarcastic</i>,
-                but I think that just keeps things fun.
-            </p>
+        <section id="resultContainer" style="display:none;">
+            <h2> Submitted Information </h2>
+            <table id="resultTable">
+                <thead>
+                    <tr>
+                        <th>Field</th>
+                        <th>Value</th>
+                    </tr>
+                </thead>
+                <tbody><!--Javascript will add more rows!--></tbody>
+            </table>
         </section>
         <br>
-        <footer>Created by Zane Mooney</footer>
     </main>
+    <footer>Created by Zane Mooney</footer>
+    <script src="scripts/script.js"></script>
 </body>
 
 </html>
