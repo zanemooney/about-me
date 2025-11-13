@@ -1,45 +1,14 @@
-header, 
-nav, 
+header,
+nav,
 footer {
     background-color: black;
-    /* black background ^^ */
+    /* black background */
     color: white;
-    /* white text so it's readable ^^ */
+    /* white text so it's readable */
     text-align: center;
-    /* centers text */
+    /* center text */
     width: 100%;
-    /* ensures background stretches the screen */
-    height: auto;
-    /* making sure the height is correct */
-}
-
-body {
-    font-family: 'Georgia', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    /* different fonts */
-    margin: 0;
-    padding: 0;
-}
-
-main {
-    background-color: #0f0808;
-    background-image: url("https://www.transparenttextures.com/patterns/triangular.png");
-    width: 100%;
-    height: auto;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-}
-
-.introBox {
-    border: 2px solid white; /* white border around the box */
-    padding: 20px; /* space inside the box */
-    margin: 20px auto; /* spacing around the box */
-     width: 70%; /*  adjust width as needed */
-    text-align: left; /* left-aligns everything */
-    background-color: #111; /* optional: dark background so white border pops */
-    color: white; /* white text to contrast the background */
-    border-radius: 8px; /* rounded corners */
+    /* ensures stretches across the screen */
 }
 
 nav a {
@@ -47,87 +16,44 @@ nav a {
     margin: 0 10px;
 }
 
-nav a:hover {
-    text-decoration: bold;
+main {
+    background-color: #0f0808;
+    background-image: url("https://www.transparenttextures.com/patterns/triangular.png");
+    color:white;
 }
 
-.contact-form {
-    background: white;
-    padding: 25px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px gold;
-    width: 400px;
+.roundedImage {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
 }
 
-.contact-form h2 {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.contact-form label {
-    font-weight: bold;
-    display: block;
-    margin-top: 10px;
-}
-
-.contact-form input,
-.contact-form select,
-.contact-form textarea {
-    width: 100%;
-    padding: 8px;
-    border-radius: 6px;
-    border: 1px solid gold;
-}
-
-.contact-form input[type="color"],
-.contact-form input[type="range"] {
-    padding: 2px;
-}
-
-.contact-form button {
-    width: 100%;
-    padding: 10px;
-    background-color: gold;
-    border: none;
-    color: black;
-    font-size: 16px;
-    border-radius: 5px;
-    margin-top: 15px;
-    cursor: pointer;
-}
-
-.contact-form button:hover{
-    background-color: #464646;
-}
-
-.inline-options {
+.centerContent {
     display: flex;
-    gap: 10px;
- }
- 
-/* TABLE FOR JAVASCRIPT ASSIGNMENT */
-#resultContainer {
-    margin-top: 30px;
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px yellow;
-    width: 80%;
-    max-width: 700px;
+    /* enables flexbox */
+    flex-direction: column;
+    /* stack sections vertically */
+    align-items: center;
+    /* center items horiontally */
+    justify-content: center;
+    /* center items vertically */
+    text-align: center;
+    /* center text inside sections */
 }
 
-#resultTable {
-    width:100%;
-    border-collapse: collapse;
+.aboutBox {
+    border: 2px solid white; /* white border around the box */
+    padding: 20px; /* space inside the box */
+    margin: 20px auto; /* spacing around the box */
+    width: 70%; /* adjust width as needed */
+    text-align: left; /* left-aligns everything */
+    background-color: #111; /* optional: dark background so white border pops */
+    color: white; /* white text to contrast the background */
+    border-radius: 8px; /* rounded corners */
 }
 
-#resultTable th, #resultTable td {
-    border: 1px solid blue;
-    padding: 10px;
-    text-align: left;
-}
-
-#resultTable th {
-    background-color: #007bff;
-    color: white;
+body {
+    font-family: 'Georgia', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
